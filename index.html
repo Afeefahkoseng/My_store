@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOD Gourmet - Ultimate Ordering System</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-content">
+            <div class="logo">OOD<span>Gourmet</span></div>
+            <div class="status-badge"><span class="dot"></span> คลังอาหารพร้อมเสิร์ฟ</div>
+        </div>
+    </header>
+
+    <div class="container">
+        <main class="menu-section">
+            <div class="category-wrapper">
+                <div id="category-list" class="category-scroll"></div>
+            </div>
+            <div id="food-container" class="product-grid"></div>
+        </main>
+
+        <aside class="cart-section">
+            <div class="cart-header-pro">
+                <i class="fas fa-shopping-cart"></i>
+                <h3>สรุปรายการสั่งซื้อ</h3>
+                <span id="cart-count" class="badge">0</span>
+            </div>
+            <div id="cart-display" class="cart-body">
+                <div class="empty-state">ตะกร้าว่างเปล่า</div>
+            </div>
+            <div class="cart-footer">
+                <div class="summary-row">
+                    <span class="total-label">ยอดชำระทั้งสิ้น</span>
+                    <span class="total-amount"><span id="total-price">0 THB</span></span>
+                </div>
+                <button class="btn-checkout" onclick="checkout()">ยืนยันออเดอร์</button>
+            </div>
+        </aside>
+    </div>
+
+    <div id="modal-overlay" class="modal-overlay">
+        <div class="modal-content">
+            <div class="modal-scroll-area">
+                <div id="modal-body"></div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-cancel" onclick="closeModal()">ย้อนกลับ</button>
+                <button class="btn-confirm" id="confirm-add-btn">ยืนยันรายการ</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
