@@ -1,16 +1,16 @@
 const menuItems = [
-    { id: 1, name: "กะเพราเนื้อวากิวไข่ดอง", price: 165, category: "อาหารจานหลัก", image: "https://images.unsplash.com/photo-1562607378-274092b322a3?q=80&w=400" },
-    { id: 2, name: "ข้าวผัดสับปะรดทะเล", price: 145, category: "อาหารจานหลัก", image: "https://images.unsplash.com/photo-1512058560366-cd242d45869e?q=80&w=400" },
-    { id: 3, name: "สเต็กไก่สไปซี่ซอสบาร์บีคิว", price: 185, category: "อาหารจานหลัก", image: "https://images.unsplash.com/photo-1532550907401-a500c9a57435?q=80&w=400" },
-    { id: 4, name: "พาสต้าคาร์โบนาร่า", price: 195, category: "อาหารจานหลัก", image: "https://images.unsplash.com/photo-1612874742237-6526221588e3?q=80&w=400" },
-    { id: 5, name: "เฟรนช์ฟรายส์ทรูเฟิลชีส", price: 95, category: "ของทานเล่น", image: "https://images.unsplash.com/photo-1630384066242-17a17833f347?q=80&w=400" },
-    { id: 6, name: "ปีกไก่ทอดเกลือซอสหัวหอม", price: 110, category: "ของทานเล่น", image: "https://images.unsplash.com/photo-1527477396000-e27163b481c2?q=80&w=400" },
-    { id: 7, name: "นักเก็ตไก่กรอบ (10 ชิ้น)", price: 85, category: "ของทานเล่น", image: "https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=400" },
-    { id: 8, name: "มัทฉะลาเต้เย็น", price: 75, category: "เครื่องดื่ม", image: "https://images.unsplash.com/photo-1515823064-d6e0c04616a7?q=80&w=400" },
-    { id: 9, name: "อเมริกาโน่น้ำส้มสด", price: 85, category: "เครื่องดื่ม", image: "https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=400" },
-    { id: 10, name: "ชานมไต้หวันไข่มุก", price: 65, category: "เครื่องดื่ม", image: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?q=80&w=400" },
-    { id: 11, name: "บิงซูสตรอว์เบอร์รีชีสเค้ก", price: 145, category: "ของหวาน", image: "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?q=80&w=400" },
-    { id: 12, name: "โทสต์เนยสดไอศกรีม", price: 125, category: "ของหวาน", image: "https://images.unsplash.com/photo-1484723091739-30a097e8f929?q=80&w=400" }
+    { id: 1, name: "กะเพราเนื้อวากิวไข่ดาว", price: 165, category: "อาหารจานหลัก", image: "https://api2.krua.co/wp-content/uploads/2023/12/RT1811_Gallery_-02.jpg" },
+    { id: 2, name: "ข้าวผัดสับปะรดทะเล", price: 155, category: "อาหารจานหลัก", image: "https://www.thaitastetherapy.com/wp-content/uploads/2021/09/ข้าวผัดสัปปะรด-cover2-4.jpg" },
+    { id: 3, name: "สเต็กไก่สไปซี่ซอสบาร์บีคิว", price: 125, category: "อาหารจานหลัก", image: "https://images.unsplash.com/photo-1532550907401-a500c9a57435?q=80&w=400" },
+    { id: 4, name: "ยำรวมมิตรทะเล", price: 119, category: "อาหารจานหลัก", image: "https://longdan.co.uk/cdn/shop/articles/spicy-mixed-seafood-salad-with-thai-food-ingredients_1200x.jpg?v=1700554699" },
+    { id: 5, name: "เฟรนช์ฟรายส์", price: 65, category: "ของทานเล่น", image: "https://image.posttoday.com/media/content/2018/11/28/809833FC1C0A47E58125BB86B868D0B7.png" },
+    { id: 6, name: "ไก่ทอดซอสหัวหอม", price: 110, category: "ของทานเล่น", image: "https://s.isanook.com/wo/0/ud/38/193077/3.jpg?ip/resize/w728/q80/jpg" },
+    { id: 7, name: "นักเก็ตไก่กรอบ (6 ชิ้น)", price: 89, category: "ของทานเล่น", image: "https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=400" },
+    { id: 8, name: "มัทฉะลาเต้", price: 85, category: "เครื่องดื่ม", image: "https://images.unsplash.com/photo-1515823064-d6e0c04616a7?q=80&w=400" },
+    { id: 9, name: "อเมริกาโน่น้ำส้มสด", price: 75, category: "เครื่องดื่ม", image: "https://s359.kapook.com/pagebuilder/8a0b71fd-95dd-448d-9bd5-d1d61248012d.jpg" },
+    { id: 10, name: "ชานมไต้หวันไข่มุก", price: 55, category: "เครื่องดื่ม", image: "https://www.leelawadee.holiday/AdminControl/images/6214185-taiwan-milk-tea-with-bubble_1339-73150.jpg" },
+    { id: 11, name: "บิงซูสตรอว์เบอร์รี", price: 145, category: "ของหวาน", image: "https://img.wongnai.com/p/1920x0/2022/02/14/4711172d9e1a43ea9b869b4fb1fbc10d.jpg" },
+    { id: 12, name: "โทสต์เนยสดไอศกรีม", price: 125, category: "ของหวาน", image: "https://static.cdntap.com/tap-assets-prod/wp-content/uploads/sites/25/2016/05/Honey-toast-with-banana-and-vanilla-ice-cream.jpg?width=700&quality=95" }
 ];
 
 let cart = [];
@@ -80,7 +80,7 @@ function openModal(id) {
             <div class="option-group">
                 <label>เลือกเนื้อสัตว์เพิ่มเติม</label>
                 <div class="option-item"><input type="checkbox" class="extra-opt" value="เนื้อไก่" data-price="20" onchange="calcLivePrice()"> เนื้อไก่ (+20 THB)</div>
-                <div class="option-item"><input type="checkbox" class="extra-opt" value="กุ้ง" data-price="40" onchange="calcLivePrice()"> กุ้งสด (+40 THB)</div>
+                <div class="option-item"><input type="checkbox" class="extra-opt" value="กุ้ง" data-price="35" onchange="calcLivePrice()"> กุ้งสด (+40 THB)</div>
                 <div class="option-item"><input type="checkbox" class="extra-opt" value="เนื้อวัว" data-price="50" onchange="calcLivePrice()"> เนื้อวัว (+50 THB)</div>
             </div>`;
     }
@@ -91,6 +91,7 @@ function openModal(id) {
                 <label>เลือกประเภทเครื่องดื่ม</label>
                 <div class="option-item"><input type="radio" name="temp" value="ร้อน" data-price="0" checked onchange="calcLivePrice()"> ร้อน (+0 THB)</div>
                 <div class="option-item"><input type="radio" name="temp" value="เย็น" data-price="5" onchange="calcLivePrice()"> เย็น (+5 THB)</div>
+                <div class="option-item"><input type="radio" name="temp" value="ปั่น" data-price="5" onchange="calcLivePrice()"> ปั่น (+5 THB)</div>
             </div>`;
     }
 
@@ -122,7 +123,7 @@ function addToCart() {
     let extraCost = 0;
 
     const spicy = document.querySelector('input[name="spicy"]:checked');
-    if (spicy) details.push(`เผ็ด: ${spicy.value}`);
+    if (spicy) details.push(`ระดับความเผ็ด: ${spicy.value}`);
 
     const temp = document.querySelector('input[name="temp"]:checked');
     if (temp) {
@@ -185,7 +186,7 @@ function updateUI() {
                 </div>`;
         });
     }
-    // ตรงนี้คือส่วนยอดรวมทั้งหมดท้ายตะกร้า แก้เป็น THB แล้วครับ
+    // ตรงนี้คือส่วนยอดรวมทั้งหมดท้ายตะกร้า 
     totalDisplay.innerText = total.toLocaleString() + " THB";
     countDisplay.innerText = count;
 }
